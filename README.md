@@ -7,3 +7,19 @@ L'étude de la stabilité d'un système bouclé en présence d'un retard pur ne 
 ## Exemple choisi
 
 Pour l'exemple, la fonction de transfert $\mu(p)\beta(p)$ en boucle ouverte est exprimée avec $\mu(p)=\dfrac{K}{1+\tau p}$ et $\beta(p)=\exp(-Tp)$.
+
+## Equation différentielle avec retard pour la boucle fermée
+
+En boucle fermée :
+
+$$\dfrac{\mu(p)}{1+\mu(p)\beta(p)}=\dfrac{K}{1+\tau p+K\exp{-Tp}}=\dfrac{Y(p)}{U(p)}$$
+
+L'équation différentielle  associée est :
+
+$$y'(t) = -\dfrac{y(t)}{\tau}-\dfrac{Ky(t-T)}{\tau}+\dfrac{Ku(t)}{\tau}=F(t,y(t),y(t-T),u(t))$$
+
+Il s'agit d'une EDR (Equation Différentielle avec Retard).
+
+## Résolution numérique par la méthode des pas
+
+L'intervalle de temps sur lequel on évalue numériquement la solution est découpé en intervalles de longueur $T$. Dans chaque intervalle $[nT, (n+1)T]$ avec $n$ entier, la fonction $y(t-T)$ est la solution obtenue dans l'intervalle précédent. Pour $n=0$, on suppose que $y(t-T)=0$. On s'intéresse par ailleurs à la réponse indicielle, avec $u(t)=1$ pour $t \geq 0$.

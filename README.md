@@ -6,7 +6,13 @@ L'étude de la stabilité d'un système bouclé en présence d'un retard pur ne 
 
 ## Exemple choisi
 
-Pour l'exemple, la fonction de transfert $\mu(p)\beta(p)$ en boucle ouverte est exprimée avec $\mu(p)=\dfrac{K}{1+\tau p}$ et $\beta(p)=\exp(-Tp)$.
+Pour l'exemple, la fonction de transfert $\mu(p)\beta(p)$ en boucle ouverte est exprimée avec
+
+$$\mu(p)=\dfrac{K}{1+\tau p}$$
+
+et
+
+$$\beta(p)=\exp(-Tp)$$
 
 ## Diagramme de Nyquist de la boucle ouverte
 

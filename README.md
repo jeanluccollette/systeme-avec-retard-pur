@@ -43,3 +43,6 @@ La résolution numérique est effectuée pour le gain $K$ faisant passer le lieu
 
 Pour un lieu de Nyquist passant par le point critique $-1$, on retrouve bien une solution $y(t)$ qui oscille indéfiniment.
 
+## Le notebook
+
+Il est proposé [ici](retard_pur.ipynb)

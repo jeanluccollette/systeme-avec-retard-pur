@@ -23,7 +23,7 @@ $$\beta(p)=\exp(-Tp)$$
 
 En boucle fermée :
 
-$$\dfrac{\mu(p)}{1+\mu(p)\beta(p)}=\dfrac{K}{1+\tau p+K\exp{-Tp}}=\dfrac{Y(p)}{U(p)}$$
+$$\dfrac{\mu(p)}{1+\mu(p)\beta(p)}=\dfrac{K}{1+\tau p+K\exp(-Tp)}=\dfrac{Y(p)}{U(p)}$$
 
 L'équation différentielle  associée est :
 

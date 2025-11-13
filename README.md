@@ -28,3 +28,12 @@ Il s'agit d'une EDR (Equation Différentielle avec Retard).
 ## Résolution numérique par la méthode des pas
 
 L'intervalle de temps sur lequel on évalue numériquement la solution est découpé en intervalles de longueur $T$. Dans chaque intervalle $[nT, (n+1)T]$ avec $n$ entier, la fonction $y(t-T)$ est la solution obtenue dans l'intervalle précédent. Pour $n=0$, on suppose que $y(t-T)=0$. On s'intéresse par ailleurs à la réponse indicielle, avec $u(t)=1$ pour $t \geq 0$.
+
+La résolution numérique est effectuée pour le gain $K$ faisant passer le lieu de Nyquist par le point critique $-1$.
+
+<img width="556" height="413" alt="image" src="https://github.com/user-attachments/assets/b20fb4d2-e8c3-4f58-a238-396f995ced38" />
+
+## Conclusion
+
+Pour un lieu de Nyquist passant par le point critique $-1$, on retrouve bien une solution $y(t)$ qui oscille indéfiniment.
+

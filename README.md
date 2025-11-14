@@ -1,4 +1,4 @@
-# Système linéaire avec retard pur
+# Système linéaire invariant avec retard pur
 
 ## Introduction
 

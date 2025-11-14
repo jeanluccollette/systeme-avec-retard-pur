@@ -39,9 +39,17 @@ La résolution numérique est effectuée pour le gain $K$ faisant passer le lieu
 
 <img width="556" height="413" alt="image" src="https://github.com/user-attachments/assets/b20fb4d2-e8c3-4f58-a238-396f995ced38" />
 
-## Conclusion
+## Conclusion de l'essai en réponse indicielle
 
 Pour un lieu de Nyquist passant par le point critique $-1$, on retrouve bien une solution $y(t)$ qui oscille indéfiniment.
+
+## Approximation de Pade
+
+La fonction de transfert $\exp(-Tp)$ du retard pur peut être approximée par une fonction de transfert $R(p)$ qui est une fraction rationnelle. On retrouve ainsi un système linéaire invariant sans retard, dont l'étude de la stabilité peut reprendre les outils classiques.
+
+<img width="597" height="459" alt="image" src="https://github.com/user-attachments/assets/ffa9c247-dd62-4e2a-ab1c-37b52bcdb422" />
+
+<img width="597" height="459" alt="image" src="https://github.com/user-attachments/assets/6d9a72e5-8ded-466c-891f-87d0f7ee38b5" />
 
 ## Le notebook
 

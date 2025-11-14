@@ -46,3 +46,5 @@ Pour un lieu de Nyquist passant par le point critique $-1$, on retrouve bien une
 ## Le notebook
 
 Il est proposé [ici](retard_pur.ipynb)
+
+Sur Google Colaboratory [ici](https://colab.research.google.com/drive/1w7wsGE231QJTqFdW24FGKDz9liDjbkAs?usp=sharing)
